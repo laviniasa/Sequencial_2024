@@ -54,3 +54,17 @@ Explicação HTML
 <p>&copy; 2024 Meu Site Acessível</p>: Define um parágrafo com informações de copyright, indicando o ano e o nome do site.
 
 <script src="script.js"></script>: Faz referência a um arquivo JavaScript externo chamado script.js, que fornece funcionalidades dinâmicas adicionais ao site.
+
+
+Cabeçalho (header):
+
+Imagine o cabeçalho como a capa de um livro. No topo do site, você encontra o título principal, que é como o título do livro. Abaixo do título, há um menu de navegação, que é como o índice ou a tabela de conteúdo do livro. Ele lista as seções importantes do site, como "Início", "Sobre" e "Contato". Os botões de controle de tamanho de fonte são como os controles que você encontra em um leitor de livros eletrônicos para ajustar o tamanho do texto para torná-lo mais fácil de ler.
+Conteúdo Principal (main):
+
+O conteúdo principal é como o corpo do livro. Aqui é onde a maior parte da informação está. Você encontra textos de boas-vindas, que são como a introdução de um livro, e outras informações importantes sobre o assunto do site. O formulário de contato é como um pedaço de papel onde você escreve uma carta para alguém. Ele tem campos onde você pode preencher seu nome, e-mail e a mensagem que você quer enviar.
+Rodapé (footer):
+
+O rodapé é como a assinatura que você coloca no final de uma carta ou e-mail. Ele geralmente contém informações sobre quem criou o site, como o nome do site e o ano em que foi criado. É uma maneira de dar crédito ao autor do site e também pode conter outras informações úteis, como links para redes sociais ou informações de contato.
+CSS e JavaScript:
+
+O CSS e o JavaScript são como as ferramentas que um artista usa para pintar um quadro. O arquivo CSS (styles.css) contém instruções sobre como o site deve parecer. Ele define coisas como cores, fontes, tamanhos e posicionamento dos elementos no site. O arquivo JavaScript (script.js) adiciona funcionalidades extras ao site. Por exemplo, ele pode permitir que você clique em um botão para mudar o tamanho do texto ou alterar as cores do site dinamicamente.
