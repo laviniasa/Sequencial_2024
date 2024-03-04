@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a192f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e2a47;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #66fcf1;
+}
+
+#noticias {
+    padding: 20px;
+    text-align: center; /* Alinha o conteúdo das notícias ao centro */
+}
+
+.noticia {
+    background-color: #1e2a47;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: block; /* Faz com que cada notícia seja exibida em uma linha separada */
+    max-width: 1000px; /* Define a largura máxima da notícia */
+    margin: 0 auto 20px; /* Centraliza a notícia na página e adiciona uma margem inferior */
+}
+
+.noticia img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura da notícia */
+    height: auto;
+    display: block; /* Centraliza a imagem horizontalmente */
+    margin: 0 auto; /* Adiciona margem automática para centralizar horizontalmente */
+}
+
+.noticia h2 {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.noticia p {
+    margin: 0 10px 10px 10px;
+}
+
+footer {
+    background-color: #1e2a47;
+    padding: 20px;
+    text-align: center;
+}
