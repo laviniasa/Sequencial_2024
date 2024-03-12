@@ -1,0 +1,80 @@
+body: Isso se aplica a todo o corpo da página.
+
+font-family: Define o tipo de fonte para o texto na página, dando preferência a 'Segoe UI' e, se não disponível, a outras fontes similares.
+
+margin: Remove qualquer margem ao redor do corpo da página.
+
+padding: Remove qualquer preenchimento interno (espaço) dentro do corpo da página.
+
+background-color: Define a cor de fundo para a página como um cinza claro.
+
+.container: Isso se aplica à caixa onde todo o conteúdo está contido.
+
+max-width: Define a largura máxima da caixa como 500 pixels.
+
+margin: Centraliza a caixa horizontalmente na página e a afasta 50 pixels da parte superior da janela.
+
+padding: Adiciona um espaço interno de 20 pixels ao redor do conteúdo dentro da caixa.
+
+border: Adiciona uma borda sólida de 1 pixel ao redor da caixa, de cor cinza claro.
+
+border-radius: Arredonda os cantos da caixa em 10 pixels.
+
+background-color: Define a cor de fundo da caixa como branca.
+
+box-shadow: Adiciona uma sombra sutil à caixa para dar a impressão de que está flutuando, com uma cor escura quase transparente.
+
+label: Isso se aplica a todos os rótulos na página.
+
+display: Faz com que os rótulos sejam exibidos como blocos, empilhando-os verticalmente.
+
+margin-bottom: Adiciona um espaço de 10 pixels abaixo de cada rótulo.
+
+color: Define a cor do texto do rótulo como um cinza escuro.
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select: Isso se aplica a diferentes tipos de campos de entrada na página.
+
+width: Define a largura dos campos de entrada como 100% da largura disponível, menos 16 pixels para compensar a largura da borda.
+
+padding: Adiciona um preenchimento interno de 10 pixels dentro de cada campo de entrada.
+
+margin-bottom: Adiciona um espaço de 20 pixels abaixo de cada campo de entrada.
+
+border: Adiciona uma borda sólida de 1 pixel ao redor de cada campo de entrada, de cor cinza claro.
+
+border-radius: Arredonda os cantos de cada campo de entrada em 6 pixels.
+
+background-color: Define a cor de fundo dos campos de entrada como um cinza claro.
+
+box-sizing: Garante que o preenchimento e a borda sejam incluídos no cálculo da largura total do campo de entrada.
+
+color: Define a cor do texto dos campos de entrada como um cinza escuro.
+
+input[type="submit"]: Isso se aplica ao botão de envio do formulário.
+
+width: Define a largura do botão como 100% da largura disponível.
+
+background-color: Define a cor de fundo do botão como verde.
+
+color: Define a cor do texto do botão como branca.
+
+padding: Adiciona um preenchimento interno de 12 pixels dentro do botão.
+
+border: Remove a borda do botão.
+
+border-radius: Arredonda os cantos do botão em 6 pixels.
+
+cursor: Altera o cursor do mouse para uma mão quando passa sobre o botão.
+
+transition: Adiciona uma transição suave para a mudança de cor de fundo quando o mouse passa sobre o botão.
+
+input[type="submit"]:hover: Isso se aplica quando o mouse está sobre o botão de envio do formulário.
+
+background-color: Muda a cor de fundo do botão para um tom mais escuro de verde.
+.error: Isso se aplica a mensagens de erro exibidas abaixo de campos de entrada.
+
+color: Define a cor do texto da mensagem de erro como um vermelho escuro.
+
+font-size: Define o tamanho da fonte da mensagem de erro como 12 pixels.
+
+margin-top: Adiciona um espaço de 5 pixels acima de cada mensagem de erro.
