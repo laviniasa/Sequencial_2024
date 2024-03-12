@@ -1,0 +1,24 @@
+function validateForm() {: Isso define uma função chamada validateForm, que é chamada quando o formulário é enviado.
+
+Dentro dessa função, várias variáveis são definidas para armazenar os valores dos campos do formulário e as mensagens de erro associadas a cada campo.
+
+O código então limpa todas as mensagens de erro para garantir que começamos com um estado limpo antes de validar o formulário.
+
+O código então começa a validar cada campo do formulário individualmente:
+
+Verifica se o campo do "Nome completo" está vazio. Se estiver, exibe uma mensagem de erro.
+Verifica se a "Data de nascimento" foi selecionada. Se não, exibe uma mensagem de erro.
+Verifica se o "Gênero" foi selecionado. Se não, exibe uma mensagem de erro.
+Verifica se o "Endereço" está vazio. Se estiver, exibe uma mensagem de erro.
+Verifica se o "Número de telefone" está vazio e se contém apenas números. Se não, exibe uma mensagem de erro.
+Verifica se o "E-mail" foi preenchido corretamente. Se não, exibe uma mensagem de erro.
+Verifica se o "Nome da escola" está vazio. Se estiver, exibe uma mensagem de erro.
+Verifica se a "Série" está vazia. Se estiver, exibe uma mensagem de erro.
+Verifica se o "Nome do responsável legal" está vazio. Se estiver, exibe uma mensagem de erro.
+Verifica se o "Contato do responsável legal" está vazio. Se estiver, exibe uma mensagem de erro.
+Verifica se o "CPF" foi preenchido corretamente. Se não, exibe uma mensagem de erro.
+Verifica se o "RG" está vazio. Se estiver, exibe uma mensagem de erro.
+Se todos os campos forem preenchidos corretamente, um alerta de sucesso é exibido e o formulário é enviado com sucesso.
+
+A função showErrorPopup é definida para exibir mensagens de erro em pop-ups de alerta.
+
