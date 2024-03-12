@@ -1,0 +1,31 @@
+<!DOCTYPE html>: Isso apenas diz ao navegador que o documento é um tipo específico de HTML, o mais recente.
+
+<html lang="pt-BR">: Esta linha diz ao navegador que o texto do documento está em português do Brasil.
+
+<head>: Aqui estão algumas coisas importantes para o navegador, como o título da página, a maneira como a página é exibida em diferentes dispositivos e onde encontrar estilos (cores, fontes, etc.).
+
+<meta charset="UTF-8">: Garante que o texto na página seja exibido corretamente, mesmo que tenha caracteres especiais.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Faz com que a página se ajuste automaticamente ao tamanho da tela do dispositivo, como um celular ou um computador.
+
+<title>Formulário de Inscrição</title>: Este é o título da página que aparece na aba do navegador.
+
+<link rel="stylesheet" type="text/css" href="styles.css">: Diz ao navegador onde encontrar um arquivo que contém instruções sobre como a página deve parecer.
+
+<body>: Aqui está o conteúdo principal da página.
+
+<div class="container">: Isto é apenas uma caixa onde colocamos todo o conteúdo.
+
+<h2>Formulário de Inscrição</h2>: Aqui está um título grande que diz o que é a página.
+
+<form id="registrationForm" onsubmit="return validateForm()">: Este é o formulário onde você digita suas informações. Quando você clica em "Enviar", ele verifica se você preencheu tudo corretamente.
+
+<label for="fullName">Nome completo:</label>: Este é um pedaço de texto que diz ao usuário o que digitar no campo de texto ao lado dele.
+
+<input type="text" id="fullName" name="fullName" required>: Este é o campo onde você digita seu nome completo. O "required" significa que você tem que preenchê-lo para enviar o formulário.
+
+<span id="fullNameError" class="error"></span>: Se você não preencher corretamente o campo do nome completo, uma mensagem de erro aparecerá aqui.
+
+<input type="submit" value="Enviar">: Este é o botão que você clica quando terminar de preencher o formulário e quiser enviá-lo.
+
+<script src="script.js"></script>: Isso é um pouco de código especial que ajuda a fazer coisas acontecerem na página, como verificar se você preencheu o formulário corretamente. Este código está em um arquivo separado chamado "script.js".
