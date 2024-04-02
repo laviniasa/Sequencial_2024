@@ -1,0 +1,21 @@
+Normalização de dados é como arrumar suas coisas em casa para torná-las mais organizadas e fáceis de encontrar quando você precisa delas.
+
+Primeira Forma Normal (1NF): Imagine que você tem uma prateleira onde guarda seus itens. Cada prateleira deve conter apenas um tipo de item. Não pode misturar coisas diferentes na mesma prateleira. Por exemplo, se você tem roupas em uma prateleira, não deve colocar sapatos lá também.
+
+Segunda Forma Normal (2NF): Agora, pense nas gavetas dentro de uma prateleira. Cada gaveta deve conter itens relacionados uns aos outros. Se você tem gavetas separadas para roupas de verão e roupas de inverno, não deve misturar as duas. Isso mantém as coisas organizadas e fáceis de encontrar.
+
+Terceira Forma Normal (3NF): Imagine que você tem uma lista de tarefas em uma gaveta. Cada tarefa deve ter todas as informações necessárias para ser feita sem precisar olhar em outro lugar. Por exemplo, se você tem uma lista de compras, cada item da lista deve incluir todas as informações necessárias, como quantidade, preço, etc., sem precisar consultar outra lista.
+
+Em resumo, a normalização de dados é sobre organizar suas informações de uma maneira que torne mais fácil encontrar e entender. Isso ajuda a evitar a duplicação de informações e garante que seus dados sejam consistentes e fáceis de gerenciar.
+
+
+..............................................................................................................................................................................
+
+Primeira Forma Normal (1NF):
+Na analogia das prateleiras, cada prateleira corresponde a uma tabela em um banco de dados SQL. Cada coluna nessa tabela deve conter apenas um tipo de dado, assim como cada prateleira deve conter apenas um tipo de item. Por exemplo, se você tem uma tabela de clientes, não deve misturar diferentes tipos de informações em uma única coluna. Por exemplo, em vez de ter uma coluna "Endereço" que contém o endereço completo (rua, número, cidade, estado), você deve dividir essa informação em colunas separadas, como "Rua", "Número", "Cidade" e "Estado".
+
+Segunda Forma Normal (2NF):
+Na analogia das gavetas dentro de uma prateleira, cada gaveta corresponde a uma tabela em um banco de dados SQL e deve conter apenas itens relacionados uns aos outros. Por exemplo, se você tem uma tabela de pedidos com informações sobre o cliente e o produto, essas informações devem estar relacionadas. Isso significa que você deve ter uma tabela separada para clientes e outra para produtos, e a tabela de pedidos deve referenciar essas tabelas através de chaves estrangeiras.
+
+Terceira Forma Normal (3NF):
+Na analogia da lista de tarefas em uma gaveta, cada tarefa corresponde a uma linha em uma tabela SQL. Cada linha deve conter todas as informações necessárias para ser completa e independente, sem precisar olhar em outra tabela para obter informações adicionais. Por exemplo, se você tem uma tabela de produtos com informações sobre o fornecedor, o preço e a categoria do produto, essas informações devem estar contidas apenas na tabela de produtos. Se houver informações sobre o fornecedor que não são diretamente relacionadas ao produto, elas devem estar em uma tabela separada e referenciadas através de uma chave estrangeira na tabela de produtos.
