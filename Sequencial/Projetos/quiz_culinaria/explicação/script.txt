@@ -1,0 +1,27 @@
+responsável por controlar a lógica do quiz, incluindo a exibição das perguntas, o tratamento das respostas do usuário, o cálculo dos pontos e a transição entre as perguntas.
+
+1. const Questao = document.getElementById("questao");: Obtém o elemento HTML onde a pergunta será exibida.
+
+2. const nquestao = document.getElementById("nquestao");: Obtém o elemento HTML onde o número da pergunta será exibido.
+
+3. const a = document.getElementById("A"); const b = document.getElementById("B"); const c = document.getElementById("C"); const d = document.getElementById("D");: Obtém os elementos HTML correspondentes às opções de resposta A, B, C e D.
+
+4. const placar = document.getElementById("pontos"); const auxiliar_nquestao = document.getElementById("numero_pergunta");: Obtém os elementos HTML onde o placar de pontos e o número da pergunta atual serão exibidos.
+
+5. const aplauso = document.getElementById("aplauso"); const erro = document.getElementById("errou"); const acerto = document.getElementById("acerto");: Obtém os elementos de áudio para aplausos, respostas erradas e respostas corretas.
+
+6. const card = document.getElementById("quiz"); const card_fim = document.getElementById("resu");: Obtém os elementos HTML correspondentes aos cartões do quiz e ao cartão exibido no final do jogo.
+
+7. const pergunta = [ { ... } ];: Define um array de objetos, onde cada objeto representa uma pergunta do quiz, incluindo a pergunta, as opções de resposta, a resposta correta e outras informações relacionadas à pergunta.
+
+8. let aux = 0; let pontos = 0;: Declara variáveis para controlar o índice da pergunta atual (aux) e os pontos do jogador (pontos).
+
+9. function Criarquestao() { ... }: Define uma função para criar e exibir uma nova pergunta do quiz.
+
+10. function next() { ... }: Define uma função para avançar para a próxima pergunta do quiz.
+
+11. function fimGamer() { ... }: Define uma função para exibir a tela de fim de jogo quando o jogador completar todas as perguntas.
+
+12. function certo(entrada, certo) { ... }: Define uma função para destacar a resposta correta e a resposta selecionada pelo usuário.
+
+13. function validar(npergunta, resposta) { ... }: Define uma função para validar a resposta do usuário e atualizar os pontos do jogador.

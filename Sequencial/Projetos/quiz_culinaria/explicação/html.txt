@@ -1,0 +1,27 @@
+Este código HTML define a estrutura básica de uma página web
+
+1. *<!DOCTYPE html>*: Declara o tipo de documento HTML para o navegador.
+
+2. *<html lang="pt-br">*: Abertura da tag <html> com o atributo lang definido como "pt-br", indicando que o idioma do documento é português brasileiro.
+
+3. *<head>*: Esta seção contém metadados sobre o documento, como o conjunto de caracteres, descrição, autor, tags de robôs, viewport e o título da página. Também inclui referências a arquivos CSS e ícone de atalho.
+
+4. *<body>*: Esta seção contém o conteúdo visível da página, incluindo cabeçalho, corpo principal e rodapé.
+
+5. *<header>*: O cabeçalho da página, que contém o título do quiz e uma contagem de pontos.
+
+6. *<main>*: O corpo principal da página, onde o conteúdo do quiz é exibido.
+
+7. *<footer>*: O rodapé da página, que geralmente contém informações adicionais, como o nome do autor.
+
+8. *<audio>*: Elementos de áudio para reproduzir sons de aplausos, respostas corretas e respostas incorretas.
+
+9. *<div class="container_quiz">*: Um contêiner que envolve todo o conteúdo do quiz. Ele ajuda a organizar o layout da página.
+
+10. *<div id="quiz" class="card_quiz">*: Um contêiner para exibir cada pergunta do quiz. Ele contém uma pergunta e opções de resposta.
+
+11. *<div class="card_pergunta">*: Um contêiner para exibir a pergunta atual.
+
+12. *<div class="card_resposta">*: Um contêiner para exibir as opções de resposta para a pergunta atual.
+
+13. *<script src="script/function.js"></script>*: Uma referência ao arquivo JavaScript que contém as funções para validar as respostas do usuário e controlar o fluxo do quiz.

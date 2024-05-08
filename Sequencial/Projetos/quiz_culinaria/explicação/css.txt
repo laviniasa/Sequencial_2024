@@ -1,0 +1,29 @@
+1. ***{ padding: 0; margin: 0; box-sizing: border-box; }**: Define que todos os elementos da página terão padding e margin removidos e o box-sizing será definido como border-box, o que significa que o padding e a borda serão incluídos na largura e altura total do elemento.
+
+2. *html{ scroll-behavior: smooth; }*: Adiciona um efeito de rolagem suave para a página.
+
+3. *.container_header{ display: flex; align-items: center; justify-content: center; text-align: center; padding-block: 20px; }*: Define o estilo para o contêiner do cabeçalho, que é um contêiner flexível com alinhamento e justificação centralizados, e padding-block de 20 pixels.
+
+4. *header h1{ font: 600 30px "Arial"; }*: Define o estilo para o título do cabeçalho, que tem uma fonte Arial, peso da fonte de 600 e tamanho de 30 pixels.
+
+5. *header h2{ margin-top: 10px; font: 600 22px "Arial"; }*: Define o estilo para o subtítulo do cabeçalho, que tem uma margem superior de 10 pixels, uma fonte Arial, peso da fonte de 600 e tamanho de 22 pixels.
+
+6. *.container_quiz{ display: flex; align-items: center; justify-content: center; flex-flow: column wrap; gap: 20px; }*: Define o estilo para o contêiner do quiz, que é um contêiner flexível com alinhamento e justificação centralizados, e fluxo de coluna com espaço de 20 pixels entre os elementos.
+
+7. *.card_quiz{ width: 60%; box-shadow: 0 0 7px 1px rgb(130, 97, 250); padding: 20px; border-radius: 15px; }*: Define o estilo para o cartão do quiz, que tem uma largura de 60%, uma sombra de caixa e um preenchimento de 20 pixels, e bordas arredondadas.
+
+8. *.card_pergunta{ margin-bottom: 10px; text-align: center; font: 600 16px "Arial"; }*: Define o estilo para o contêiner da pergunta, que tem uma margem inferior de 10 pixels, uma alinhamento centralizado e uma fonte Arial com peso 600 e tamanho de 16 pixels.
+
+9. *#nquestao{ background: rgb(7, 144, 255); color: white; border-radius: 100%; padding-inline: 5px; }*: Define o estilo para o número da pergunta, que tem um fundo azul, texto branco, borda arredondada e preenchimento interno de 5 pixels.
+
+10. *.card_resposta div{ margin: 10px 0; padding-block: 10px; text-align: center; box-shadow: 0 0 3px 1px rgb(61, 59, 59); border-radius: 15px; font: normal 16px "Arial"; }*: Define o estilo para as opções de resposta, que têm margens, preenchimento, sombra da caixa, bordas arredondadas e uma fonte Arial normal com tamanho de 16 pixels.
+
+11. *.card_resposta div:hover{ background: #c2c2c2; }*: Define o estilo para a opção de resposta quando o mouse estiver sobre ela, mudando o fundo para cinza claro.
+
+12. *footer{ text-align: center; font: normal 12px "Arial"; padding-block: 20px; }*: Define o estilo para o rodapé da página, que tem alinhamento centralizado, uma fonte Arial normal com tamanho de 12 pixels e preenchimento de bloco de 20 pixels.
+
+13. *.pergunta_errada{ color: white; animation: erro .5s infinite; }*: Define o estilo para a pergunta errada, com uma cor de texto branca e uma animação chamada erro.
+
+14. *.pergunta_certa{ color: white; animation: acerto .5s infinite; }*: Define o estilo para a pergunta correta, com uma cor de texto branca e uma animação chamada acerto.
+
+15. *.hidden{ display: none; }*: Define o estilo para elementos ocultos,
