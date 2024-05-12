@@ -1,0 +1,6 @@
+_Quiz
+
+Criação de um Quiz de perguntas e respostas sobre o tema que desejar em html, css e javascript,
+onde o site mostre os erros e os acertos e no final uma mensagem de parabens ou pode melhorar. 
+
+_correção no meu GitHub  - sequencial_2024 - sequencial - Projetos - Quiz culinaria 
