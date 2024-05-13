@@ -1,0 +1,16 @@
+const botao1 = document.getElementById("botao1");
+const botao2 = document.getElementById("botao2");
+const botao3 = document.getElementById("botao3");
+
+- Nesta parte, o código está usando o método document.getElementById() para selecionar elementos do HTML com os IDs "botao1", "botao2" e "botao3" e armazená-los em variáveis
+JavaScript (botao1, botao2 e botao3). Esses IDs devem corresponder aos IDs dos elementos HTML no documento HTML.
+
+- depois um , um event listener é adicionado a cada botão usando o método addEventListener(). Esse método registra uma função (um "callback") para ser chamada quando o evento especificado ocorre (no caso, o evento de clique).
+Quando um desses botões é clicado, a função de callback associada a ele é executada. Essa função de callback exibe uma mensagem de alerta que mostra o texto "Você clicou no botão:" concatenado com o texto do próprio botão. this.textContent é usado para obter o texto do botão que foi clicado.
+
+-A ligação com o HTML ocorre porque este código JavaScript precisa interagir com elementos HTML específicos que têm IDs correspondentes aos IDs usados ​​para selecioná-los. Portanto, no HTML, você esperaria ver algo assim:
+
+html
+<button id="botao1">Botão 1</button>
+<button id="botao2">Botão 2</button>
+<button id="botao3">Botão 3</button>
