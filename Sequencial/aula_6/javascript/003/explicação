@@ -1,0 +1,6 @@
+Essa função JavaScript faz o seguinte:
+
+Define uma função chamada inicio().
+Dentro dessa função, usa window.prompt() para exibir uma caixa de diálogo solicitando ao usuário que insira seu nome. O que o usuário digita é armazenado na variável nome.
+Em seguida, usa window.alert() para exibir uma mensagem de saudação que inclui o nome digitado pelo usuário. Isso é feito usando a sintaxe de string de modelo (template string), onde ${nome} é substituído pelo valor da variável nome.
+Basicamente, quando você chama a função inicio(), ela pede ao usuário para digitar seu nome e, em seguida, mostra uma mensagem de saudação personalizada com o nome inserido.
