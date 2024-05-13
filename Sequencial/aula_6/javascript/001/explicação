@@ -1,0 +1,6 @@
+Define uma função chamada minhaFuncao que não recebe nenhum parâmetro.
+Dentro dessa função, há duas chamadas de alert(), que exibem caixas de mensagem no navegador. A primeira exibe "Hello, World!" e a segunda exibe "A função funcionou!".
+Usa console.log() para imprimir "Hello, World!" no console do navegador.
+Por fim, chama a função minhaFuncao().
+Então, quando você executar esse código, verá uma caixa de mensagem com "Hello, World!" e "A função funcionou!", além de "Hello, World!" impresso no console do navegador. 
+Isso acontece porque a função minhaFuncao() foi chamada.
