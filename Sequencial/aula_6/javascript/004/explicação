@@ -1,0 +1,22 @@
+Essas são duas funções JavaScript:
+
+calcularMedia(listaNumeros):
+
+Esta função calcula a média dos números em uma lista.
+Primeiro, verifica se a lista está vazia. Se estiver, retorna 0 para evitar uma divisão por zero.
+Em seguida, soma todos os números na lista usando o método reduce().
+Depois, calcula a média dividindo a soma pelo número de elementos na lista.
+Por fim, retorna a média.
+exibirMedia():
+
+Esta função é responsável por exibir a média dos números em algum lugar da página HTML.
+Define uma lista de números chamada numeros.
+Chama a função calcularMedia() passando a lista numeros como argumento.
+Obtém um elemento HTML com o ID "resultado".
+Define o conteúdo desse elemento HTML para mostrar a média calculada.
+Essencialmente, a segunda função utiliza a primeira para calcular a média de uma lista de números e, em seguida, exibe essa média em algum lugar de uma página HTML, provavelmente em um elemento com o ID "resultado".
+
+
+
+
+
