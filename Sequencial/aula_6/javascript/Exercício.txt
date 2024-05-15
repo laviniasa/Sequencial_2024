@@ -1,0 +1,19 @@
+1 - Exercício de saudação: Escreva um programa que solicite ao usuário seu nome e, em seguida, exiba uma saudação personalizada na tela, como "Olá, [nome]!".
+
+2 - Exercício de soma: Escreva um programa que solicite dois números ao usuário e exiba a soma deles.
+
+3 - Exercício de verificação de número par ou ímpar: Escreva um programa que solicite um número ao usuário e informe se é par ou ímpar.
+
+4 - Exercício de contagem regressiva: Escreva um programa que exiba uma contagem regressiva de 10 a 1, mostrando cada número na tela.
+
+5 - Exercício de cálculo de fatorial: Escreva uma função que receba um número e retorne o seu fatorial.
+
+6 - Exercício de reversão de string: Escreva uma função que receba uma string e retorne ela invertida.
+
+7 - Exercício de validação de senha: Escreva um programa que solicite ao usuário uma senha e verifique se ela atende a certos critérios (por exemplo, ter pelo menos 8 caracteres e conter pelo menos um número e uma letra maiúscula).
+
+8 - Exercício de geração de números aleatórios: Escreva um programa que gere e exiba um número aleatório entre 1 e 100.
+
+9 - Exercício de conversão de temperatura: Escreva uma função que converta uma temperatura de Celsius para Fahrenheit.
+
+10 - Exercício de validação de e-mail: Escreva um programa que solicite ao usuário um endereço de e-mail e verifique se é válido.
