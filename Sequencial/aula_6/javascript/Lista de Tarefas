@@ -1,0 +1,30 @@
+Atividade: Desenvolvimento de um Aplicativo de Lista de Tarefas Interativa em JavaScript
+
+Objetivo: Criar um aplicativo de lista de tarefas que permita aos usuários adicionar, remover e marcar tarefas como concluídas.
+
+Passos:
+
+Introdução ao Projeto:
+
+O objetivo desta atividade é desenvolver um aplicativo de lista de tarefas em JavaScript.
+Use os conceitos de interação humano-computador para projetar uma interface intuitiva e funcional.
+Projeto da Interface:
+
+Projete a interface do aplicativo, incluindo áreas para adicionar novas tarefas, exibir tarefas existentes e marcar tarefas como concluídas.
+Use HTML e CSS para criar a estrutura e o estilo do aplicativo.
+Implementação em JavaScript:
+
+Escreva o código JavaScript para tornar o aplicativo funcional.
+Crie funções para adicionar novas tarefas à lista, remover tarefas existentes e marcar tarefas como concluídas.
+Utilize eventos de clique e manipulação do DOM para atualizar a interface conforme as ações do usuário.
+Armazenamento Local:
+
+Explore o uso do armazenamento local (localStorage) para salvar as tarefas do usuário, permitindo que elas persistam mesmo após o fechamento do navegador.
+Implemente funções para salvar e carregar a lista de tarefas do armazenamento local.
+Estilização Adicional:
+
+Aplique estilos adicionais ao aplicativo, como cores, ícones e animações, para torná-lo mais atraente e intuitivo para o usuário.
+Teste e Depuração:
+
+Teste o aplicativo, adicionando, removendo e marcando tarefas como concluídas.
+Identifique e corrija quaisquer erros ou bugs encontrados durante o teste.
