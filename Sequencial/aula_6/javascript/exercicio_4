@@ -1,0 +1,104 @@
+Exercício 1: Manipulação do DOM
+Descrição:
+Crie uma página web onde um botão altera o texto de um parágrafo quando clicado.
+
+Requisitos:
+
+Crie um parágrafo com o texto inicial "Clique no botão para mudar este texto."
+Adicione um botão com o texto "Clique aqui".
+Quando o botão for clicado, o texto do parágrafo deve ser alterado para "O texto foi alterado!".
+Dicas:
+
+Use document.getElementById() para acessar os elementos.
+Use addEventListener() para adicionar o evento de clique.
+
+
+Exercício 2: Fetch API para Requisições HTTP
+Descrição:
+Crie uma página web que faça uma requisição HTTP para uma API pública e exiba os dados recebidos.
+
+Requisitos:
+
+Adicione um parágrafo que exibirá os dados da API.
+Adicione um botão com o texto "Buscar Dados".
+Ao clicar no botão, faça uma requisição para https://api.publicapis.org/entries.
+Exiba os dados do primeiro resultado da API no parágrafo em formato JSON.
+Dicas:
+
+Use a função fetch() para fazer a requisição.
+Use .then() para manipular a resposta da API.
+Use JSON.stringify() para converter o objeto em string JSON.
+
+
+Exercício 3: Validação de Formulário
+Descrição:
+Crie um formulário que valide o campo de e-mail antes de enviar os dados.
+
+Requisitos:
+
+Crie um formulário com um campo de entrada de e-mail e um botão de envio.
+Adicione uma mensagem abaixo do formulário para exibir erros ou confirmações.
+Valide que o campo de e-mail não está vazio e contém um endereço de e-mail válido.
+Se a validação falhar, exiba uma mensagem de erro. Caso contrário, exiba uma mensagem de sucesso.
+Dicas:
+
+Use o evento submit do formulário.
+Use event.preventDefault() para evitar o envio do formulário.
+Use expressões regulares para validar o e-mail.
+
+
+Exercício 4: Manipulação de Arrays
+Descrição:
+Crie uma página web que filtre uma lista de números e exiba apenas os números pares.
+
+Requisitos:
+
+Adicione um botão com o texto "Filtrar Números Pares".
+Adicione um parágrafo que exibirá os números filtrados.
+Ao clicar no botão, filtre uma lista de números de 1 a 10 para exibir apenas os números pares.
+Dicas:
+
+Use Array.filter() para filtrar os números.
+Use o operador de módulo % para determinar se um número é par.
+Use join(', ') para formatar os números como uma string.
+
+
+Código Base para Exercícios
+Aqui está o código base onde você pode adicionar a lógica para cada exercício.
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript</title>
+</head>
+<body>
+
+    <!-- Exercício 1: Manipulação do DOM -->
+    <h2>Exercício 1: Manipulação do DOM</h2>
+    <p id="texto1">Clique no botão para mudar este texto.</p>
+    <button id="botao1">Clique aqui</button>
+
+    <!-- Exercício 2: Fetch API -->
+    <h2>Exercício 2: Fetch API</h2>
+    <p id="dados2">Dados da API aparecerão aqui.</p>
+    <button id="buscar2">Buscar Dados</button>
+
+    <!-- Exercício 3: Validação de Formulário -->
+    <h2>Exercício 3: Validação de Formulário</h2>
+    <form id="formulario3">
+        <label for="email3">Email:</label>
+        <input type="email" id="email3" name="email3" required>
+        <button type="submit">Enviar</button>
+        <p id="mensagem3"></p>
+    </form>
+
+    <!-- Exercício 4: Manipulação de Arrays -->
+    <h2>Exercício 4: Manipulação de Arrays</h2>
+    <button id="filtrar4">Filtrar Números Pares</button>
+    <p id="resultado4"></p>
+
+</body>
+</html>
